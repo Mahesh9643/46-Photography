@@ -1,0 +1,251 @@
+   #imgdiv{
+                width:50%;
+                height:65%;
+         }
+       #divImg{
+             width:100%;
+             height:100%;
+        }
+  
+   .text-justify{
+	text-align:justify;
+       }
+     .img{
+        width:20%;
+        margin-right:8%;
+       }
+      .img1{
+        width:100%;
+       }
+      .img2{
+        width:70%;
+        margin-left:10%;
+       }
+     .p{
+       font-size:200%;
+       font-family: 'IBM Plex Sans Condensed', sans-serif;
+       font-family: 'Island Moments', cursive;
+       font-family: 'The Nautigal', cursive;
+       text-align:justify;
+       }
+      .navs{ 
+         margin-left:5;
+           }
+      .font{
+          font-family: 'Island Moments', cursive;
+          font-size:470%;
+          }
+      li{
+        font-size:25px;
+         }
+        .multicolortext {
+        background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .home{
+         background-image:url("img/bg.jpg");
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+	}
+      .birthday{
+         background-image:url("img1/bbg.jpg");
+         background-size:cover;
+	}
+      .ringcermony{
+         background-image:url("img1/ringbg.jpg");
+         background-size:cover;
+	}
+      .halfsaree{
+         background-image:url("img1/hsbg.jpeg");
+         background-size:cover;
+	}
+      .haldicermony{
+         background-image:url("img1/haldibg.jpg");
+         background-size:cover;
+	}
+      .contactbg{
+         background-image:url("img/contactbg.jpg");
+         background-size:cover;
+        }
+      .preweddingbg{
+         background-image:url("img1/prewed2.jpg");
+         background-size:cover;
+	}
+
+      .wedding{  
+         background-image:url("img1/wedbg.jpg");
+         background-size:cover;
+        }
+      .photoshoot{
+         background-image:url("img1/psbg.jpg");
+         background-size:cover;
+        }
+      .login{
+         background-image:url("img/login.jfif");
+         background-size:cover;
+        }
+      .finish{
+          width:10%;
+           margin-left:45%;
+	}
+      .form-size{
+        width:27%;
+        margin-left:37%;
+	}
+
+     .dropdown-menu a:hover {background-color: #ddd;}
+
+     .dropdown:hover .dropdown-menu {display: block;}
+
+     .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.zoom {
+  transition: transform .4s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25); 
+}
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 24%;
+  padding: 8px;
+  margin-left:1%;
+}
+.pb1{
+      background-image:url("img1/pb1.jpg");
+      border-radius:3%;
+      }
+.pb2{
+      background-image:url("img1/pb2.jpg");
+      }
+.pb3{
+      background-image:url("img1/pb3.jpg");
+      }
+.pb4{
+      background-image:url("img1/pb2.png");
+      }
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: rgba(0,255,0, 0.3);
+  color: white;
+  font-size: 25px;
+  border-radius:3%;
+}
+
+.price li {
+  border-bottom: 1px #eee;
+  padding: 12.8px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #D4F1F9;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  background-color: yellow;
+  color: black;
+  transform: rotateY(180deg);
+}
+.f{
+   font-size:120%; 
+   background-color:rgba(12,15,255,0.1);
+   border-radius:50%;
+    }
+.c{
+   background-color:#A4FCC0;
+   border-radius:50%;
+    }
+.copy{
+   background-color:rgba(137, 196, 244,0.5);
+    }
+      a{
+        margin-left:1%;
+         }
+    .icon-size{
+         font-size:250%;
+        }  
+    .img-contact{
+        opacity:0.6;
+       }   
+    .contact{
+       color:#000000;
+       font-size:70px;
+       font-family: 'Island Moments', cursive;
+	font-family: 'Luxurious Roman', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'The Nautigal', cursive;
+        }
